@@ -1,0 +1,32 @@
+{
+  "name": "graphql-server-artwork",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GraphQL",
+    "Javascript"
+  ],
+  "author": "Jorge Troya Moreno",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource": "^3.1.0",
+    "apollo-datasource-rest": "^3.2.0",
+    "apollo-server": "^3.3.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
+  }
+}
